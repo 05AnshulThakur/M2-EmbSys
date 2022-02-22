@@ -2,6 +2,18 @@
 
 ![image](https://user-images.githubusercontent.com/98889318/154838257-69d3f5ef-a785-4bcd-a771-3890521a7f78.png)
 
+### REQUIREMENTS
+1. MAGNETRON
+2. LIGHT-EMITTING DIODE
+3. TEMPERATURE SENSOR
+4. MICROCONTROLLER
+5. RELAY
+6. SENSOR (DOOR OPEN/CLOSE)
+7. AC POWER SOURCE
+8. DC VOLTAGE REGULATOR
+9. CLOCK
+10. BUTTONS
+
 ## MAGNETRON:
 A magnetron is a device that uses the interaction of a stream of electrons, guided by a magnetic field, with cavities within a block of copper to produce microwave radiation (Basically it cooks food).
 
@@ -31,3 +43,6 @@ The micro-controller has a clock simply because it executes sequential logic. Mi
 
 ## BUTTONS:
 Helps us to set Temp., Time, Mode of cooking and helps the user to operate the microwave oven.
+
+
+
