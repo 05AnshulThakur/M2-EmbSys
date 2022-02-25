@@ -7,3 +7,9 @@
 2. Behavioural Design 
   * Flow Chart 
   
+## Structural Design
+  ### Block Diagram
+  ### Explanation of Components.
+
+## Behavioural Design 
+  ### Flow Chart
