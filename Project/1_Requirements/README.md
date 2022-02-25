@@ -17,6 +17,9 @@ An accurate amount of moisture is required in crops for their good and healthy g
 Even gardens also require a accurate amount of moisture for the plants to grow and remain healthy.
 
 ## Application:
+1. Useful for irrigating fields.
+2. Useful for irrigation of gardens.
+3. Very efficient for Paddy, Rice fields.
  
 ## Requirements:
 
