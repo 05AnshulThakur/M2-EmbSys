@@ -13,25 +13,25 @@
 
 ### Explanation of Components:
 
-## LIGHT-EMITTING DIODE:
+### LIGHT-EMITTING DIODE:
 A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it.
 
-## TEMPERATURE SENSOR:
+### TEMPERATURE SENSOR:
 Temperature sensor is a device, used to measure the temperature using an electrical signal.
 
-## MICROCONTROLLER:
+### MICROCONTROLLER:
 It is the brain of the whole system. All the decision making and calculations are done by it.
 
-## MOISTURE SENSOR:
+### MOISTURE SENSOR:
 It is used to measure the amount of moisture in soil.
 
-## POWER SOURCE:
+### POWER SOURCE:
 It provides power to the whole system to work according to the microcontroller:
 
-## ACTUATOR (MOTOR):
+### ACTUATOR (MOTOR):
 It is used to irrigate the field with water.
 
-## INPUT DEVICE:
+### INPUT DEVICE:
 It is used to give input values to the microcontroller.
 
   
