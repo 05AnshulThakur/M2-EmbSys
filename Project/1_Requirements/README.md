@@ -52,4 +52,5 @@ When moisture level is low it helps to bring it to required value.
 Large Agricultural areas, Gardens, can be used where there is accurate need for measuring moisture content.
 
 ## SWOT Analysis
+![SWOT Analysis](https://user-images.githubusercontent.com/98889318/155833332-d72135f7-aca5-4262-b8c5-26ce4c807c7f.png)
 
