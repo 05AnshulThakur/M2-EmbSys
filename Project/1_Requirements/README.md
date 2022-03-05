@@ -1,4 +1,4 @@
-# Automatic Irrigation System
+# Automatic Seat Heater 
 
 ## Table Of Content:
 1. Description
@@ -49,5 +49,5 @@ Where there are long winters.
 The sensor will sense the temperature and heater can heat the seat.
 
 ## SWOT Analysis
-![SWOT Analysis](https://user-images.githubusercontent.com/98889318/155833332-d72135f7-aca5-4262-b8c5-26ce4c807c7f.png)
+
 
