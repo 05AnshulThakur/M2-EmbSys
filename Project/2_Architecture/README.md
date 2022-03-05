@@ -22,8 +22,8 @@ Temperature sensor is a device, used to measure the temperature using an electri
 ### MICROCONTROLLER:
 It is the brain of the whole system. All the decision making and calculations are done by it.
 
-### MOISTURE SENSOR:
-It is used to measure the amount of moisture in soil.
+### HEATER:
+It will heat the seat.
 
 ### POWER SOURCE:
 It provides power to the whole system to work according to the microcontroller:
@@ -40,4 +40,4 @@ It is used to give input values to the microcontroller.
 ## Behavioural Design:
   ### Flow Chart:
   
-![Flow Chart](https://user-images.githubusercontent.com/98889318/155833280-8abefe66-2442-40fa-ad7f-ae72ba4f5f9e.png)
+
