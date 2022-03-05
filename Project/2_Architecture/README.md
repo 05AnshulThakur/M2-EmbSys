@@ -9,7 +9,8 @@
   
 ## Structural Design:
 ### Block Diagram:
-  ![Block Diagram](https://user-images.githubusercontent.com/98889318/155833257-fd266d5d-9fe6-4584-b29d-3f3e9d67cc96.png)
+![Block Diagram](https://user-images.githubusercontent.com/98889318/156899380-c48627df-3d39-4732-8d49-2ffd382b4cf0.png)
+
 
 ### Explanation of Components:
 
@@ -34,10 +35,7 @@ It is used to irrigate the field with water.
 ### INPUT DEVICE:
 It is used to give input values to the microcontroller.
 
-  
-  
 
 ## Behavioural Design:
   ### Flow Chart:
   
-
