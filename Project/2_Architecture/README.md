@@ -38,4 +38,5 @@ It is used to give input values to the microcontroller.
 
 ## Behavioural Design:
   ### Flow Chart:
-  
+  ![Pic](https://user-images.githubusercontent.com/98889318/156899559-87efacb1-046b-41c0-b7a8-ae1fb064100e.png)
+
