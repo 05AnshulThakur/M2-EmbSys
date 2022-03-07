@@ -1,35 +1,34 @@
-#include <avr/io.h>
-#include <util/delay.h>
-#include "act1.h"
+#include "activity1.h"
 
-/**
- * @brief A function to operate the button and heater sensor
- *
- */
-void Buttons_LED_Init()
+
+void peripheral_init(void)
+{	
+	DDRD |= (1<<PD2); // set PD2=1 for LED
+    DDRD &= ~(1<<PD0); //clear bit
+    PORTD |= (1<<PD0); //set bit PD0 for SeatSwitch
+    DDRD &= ~(1<<PD1); //clear bit
+    PORTD |= (1<<PD1); //set bit PD0 for HeaterSwitch
+}
+
+void TurnLED_ON(){
+    LED_PORT |= (1<<LED_PIN); 
+}
+
+void TurnLED_OFF(){
+    LED_PORT &= ~(1<<LED_PIN);
+}
+
+int act1=0;
+int activity1_LED(void)
 {
-     /*Configure LED and Switch pins*/
-    DDRD|=(1<<PD2);//setting PD2=1 for led
-    DDRD&=~(1<<PD0);//making it 0
-    PORTD|=(1<<PD0);//matching bit
-    DDRD&=~(1<<PD1);//making 0
-     PORTD|=(1<<PD1);//setting bit
-     while(1)
-     {
-         if(!(PIND&(1<<PD0)))
-         {
-             if(!(PIND&(1<<PD1)))
-             {
-                 PORTD|=(1<<PD2);
-             }
-             else
-                {
-                PORTD&=~(1<<PD2);
-             }
-         }
-         else
-            {
-            PORTD&=~(1<<PD2);
-         }
-     }
+       peripheral_init();
+        if(!(PIND&(1<<BUTTON_SENSOR )) && !(PIND&(1<<TEMP_SENSOR))) //both the switches are pressed
+        { 
+            act1=1;
+        }
+        else  //in all other cases
+        {
+            act1=0;
+        }
+    return act1;
 }
