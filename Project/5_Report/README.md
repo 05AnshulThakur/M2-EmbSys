@@ -36,6 +36,9 @@ Where there are long winters.
 ### How:
 The sensor will sense the temperature and heater can heat the seat.
 
+## SWOT Analysis
+![S W O T](https://user-images.githubusercontent.com/98889318/157021144-4f70591a-6e28-4caf-a785-ab064151422f.png)
+
 ## Structural Design:
 ### Block Diagram:
 ![Block Diagram](https://user-images.githubusercontent.com/98889318/156899380-c48627df-3d39-4732-8d49-2ffd382b4cf0.png)
