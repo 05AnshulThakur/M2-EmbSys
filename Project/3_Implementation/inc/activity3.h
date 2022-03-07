@@ -22,11 +22,7 @@
  */
 void InitTimer();
 
-/**
- * @brief Produce duty cycle in PWM according to i/p ADC value
- * 
- * @param[in] temp The ADC value from activity2
- */
+
 void activity3_PWM(uint16_t temp);
 
 #endif /* __ACTIVITY_3_H__ */
