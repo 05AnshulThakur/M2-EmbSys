@@ -1,8 +1,7 @@
 Codacy
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/823522ee74ba4d4d99af22948340780d)](https://www.codacy.com/gh/05AnshulThakur/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=05AnshulThakur/M2-EmbSys&amp;utm_campaign=Badge_Grade)
 
-CI  
-[![CI](https://github.com/05AnshulThakur/M2-EmbSys/actions/workflows/main.yml/badge.svg)](https://github.com/05AnshulThakur/M2-EmbSys/actions/workflows/main.yml)
+CI      [![CI](https://github.com/05AnshulThakur/M2-EmbSys/actions/workflows/main.yml/badge.svg)](https://github.com/05AnshulThakur/M2-EmbSys/actions/workflows/main.yml)
 
 Codiga
 ![Codiga Badge](https://api.codiga.io/project/31598/score/svg)  ![Codiga Badge]( https://api.codiga.io/project/31598/status/svg)
