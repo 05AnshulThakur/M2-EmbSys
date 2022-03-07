@@ -1,3 +1,11 @@
+Codacy
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/823522ee74ba4d4d99af22948340780d)](https://www.codacy.com/gh/05AnshulThakur/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=05AnshulThakur/M2-EmbSys&amp;utm_campaign=Badge_Grade)|
+
+Codiga
+https://api.codiga.io/project/31598/score/svg
+
+   https://api.codiga.io/project/31598/status/svg
+
 ## Description:
 It is very uncomfortable to sit on the seat of a car when it is cold and not having required temperature. The sensor will sense the temperature of the seat and the heater will heat the seat to the required temperature. The Heater will generate the heat and a uart display will show the temperature. Here we have used ATmega328 microcontroller to make all the decisions.
 
