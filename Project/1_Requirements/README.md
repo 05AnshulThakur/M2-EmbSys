@@ -49,5 +49,6 @@ Where there are long winters.
 The sensor will sense the temperature and heater can heat the seat.
 
 ## SWOT Analysis
+![S W O T](https://user-images.githubusercontent.com/98889318/157021144-4f70591a-6e28-4caf-a785-ab064151422f.png)
 
 
