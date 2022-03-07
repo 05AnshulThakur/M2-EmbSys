@@ -1,18 +1,32 @@
-#ifndef ACTIVITY2_H_INCLUDED
-#define ACTIVITY2_H_INCLUDED
-
-#include<avr/io.h>
+#ifndef __ACTIVITY_2_H__
+#define __ACTIVITY_2_H__
+ 
+#include <util/delay.h>
+#include <avr/io.h>
 
 /**
- * @brief to read the adc values
- *
+ * Function Definitions
+ */
+
+/**
+ * @brief Initialize the registers for ADC setup
+ * 
+ */
+void InitADC();
+
+/**
+ * @brief Gives the ADC values for the selected channel
+ * 
+ * @param[in] ch Channel number from 0-7
+ * @return uint16_t ADC value
  */
 uint16_t ReadADC(uint8_t ch);
 
 /**
- * @brief initialise the analog to digital converter
- *
+ * @brief Return the ADC value to main function
+ * 
+ * @return uint16_t The ADC value
  */
-void InitADC();
+uint16_t activity2_GetADC(void);
 
-#endif // ACT2_H_INCLUDED
+#endif /* __ACTIVITY_2_H__ */
