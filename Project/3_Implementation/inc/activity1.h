@@ -1,35 +1,47 @@
-#ifndef _ACTIVITY1_H
-#define _ACTIVITY1_H
+#ifndef __ACTIVITY_1_H__
+#define __ACTIVITY_1_H__
 
-#define AVR_ATmega328
 
+
+#define F_CPU 16000000UL 	/**< Clock Frequency of MCU is 16 MHz */
+#define LED_PORT (PORTD)    /**< LED Port Number */
+#define LED_PIN  (PORTD2)   /**< LED Pin number  */
+#define BUTTON_SENSOR  (PORTD0)   /**< Port for Button Sensor  */
+#define TEMP_SENSOR  (PORTD1)   /**< Port for Temperature Sensor   */
+
+/**
+ * Include files
+ */ 
+#include <util/delay.h>
 #include <avr/io.h>
 
-/**
- * @brief A macro to check if the button is pressed or not.
- *
- */
-#define SENSOR_ON !(PIND&(1<<PD1))
 
 /**
- * @brief A macro to check if the heater is pressed or not.
- *
+ * Function Definitions
  */
-#define HEATER_ON !(PIND&(1<<PD0))
 
 /**
- * @brief A macro to turn on the LED
- *
+ * @brief Initialize all the Peripherals and pin configurations
+ * 
  */
-#define SET_LED PORTD|=(1<<PD2)
+void peripheral_init(void);
 
 /**
- * @brief A macro to turn off the LED
- *
+ * @brief Function to turn LED on
+ * 
  */
-#define CLEAR_LED PORTD&=~(1<<PD2)
+void TurnLED_ON();
 
-void Buttons_LED_Init();
+/**
+ * @brief Function to turn LED off
+ * 
+ */
+void TurnLED_OFF();
 
+/**
+ * @brief Activity 1 to Turn ON LED if switches for Button sensor and Heator sensor are pressed 
+ * 
+ */
+int activity1_LED(void);
 
-#endif //ACT1_H_INCLUDED
+#endif /* __ACTIVITY_1_H__ */
