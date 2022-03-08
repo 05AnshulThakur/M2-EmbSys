@@ -11,6 +11,8 @@
 ### Block Diagram:
 ![Block Diagram](https://user-images.githubusercontent.com/98889318/156899380-c48627df-3d39-4732-8d49-2ffd382b4cf0.png)
 
+![Main](https://user-images.githubusercontent.com/98889318/157246581-034b1ce0-864e-4987-ac39-2a64dc5f5cc1.png)
+
 
 ### Explanation of Components:
 
