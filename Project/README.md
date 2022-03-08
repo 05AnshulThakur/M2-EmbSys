@@ -51,6 +51,10 @@ The sensor will sense the temperature and heater can heat the seat.
 ### Block Diagram:
 ![Block Diagram](https://user-images.githubusercontent.com/98889318/156899380-c48627df-3d39-4732-8d49-2ffd382b4cf0.png)
 
+## High level Diagram
+![Main](https://user-images.githubusercontent.com/98889318/157246581-034b1ce0-864e-4987-ac39-2a64dc5f5cc1.png)
+
+
 
 ### Explanation of Components:
 
@@ -75,7 +79,19 @@ It is used to irrigate the field with water.
 ### INPUT DEVICE:
 It is used to give input values to the microcontroller.
 
+### THERMOSTAT:
+The device which controls water temperature.
+
+### RADIATOR:
+The water which passes throug it gets heated up.
+
+### VALVE:
+It controls water supply.
+
+### WATER PUMP:
+It helps in pumping the water.
+
 
 ## Behavioural Design:
   ### Flow Chart:
-  ![Pic](https://user-images.githubusercontent.com/98889318/156899559-87efacb1-046b-41c0-b7a8-ae1fb064100e.png)
+   ![pic_](https://user-images.githubusercontent.com/98889318/157248398-b346a657-8a4c-4bd6-9447-42c9bf08a1a0.png)
