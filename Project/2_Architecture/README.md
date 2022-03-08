@@ -38,8 +38,21 @@ It is used to irrigate the field with water.
 ### INPUT DEVICE:
 It is used to give input values to the microcontroller.
 
+### THERMOSTAT:
+The device which controls water temperature.
+
+### RADIATOR:
+The water which passes throug it gets heated up.
+
+### VALVE:
+It controls water supply.
+
+### WATER PUMP:
+It helps in pumping the water.
+
 
 ## Behavioural Design:
   ### Flow Chart:
-  ![Pic](https://user-images.githubusercontent.com/98889318/156899559-87efacb1-046b-41c0-b7a8-ae1fb064100e.png)
+  ![pic_](https://user-images.githubusercontent.com/98889318/157248398-b346a657-8a4c-4bd6-9447-42c9bf08a1a0.png)
+
 
